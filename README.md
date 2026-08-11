@@ -1,4 +1,4 @@
-# 원우ENG 서열정보&소요자재 자동 취합 프로그램
+﻿# 원우ENG 서열정보&소요자재 자동 취합 프로그램
 
 ## 다운로드
 
@@ -21,6 +21,13 @@ https://github.com/jbc6265/wonwoo_FP_release/raw/main/Wonwoo_Key_Column_Merge_Pl
 
 - Python 설치가 필요 없습니다.
 - 별도 프로그램 설치 없이 Windows PC에서 실행합니다.
+- DRM 또는 비표준 xlsx 파일을 자동 변환해야 하는 경우 Microsoft Excel이 설치되어 있어야 합니다.
+
+## 엑셀 파일 선택 안내
+
+SRM에서 내려받은 엑셀 파일이 보안 처리되어 있거나 표준 xlsx 구조가 아닌 경우, 프로그램이 Microsoft Excel을 이용해 임시 표준 xlsx 파일로 변환한 뒤 읽기를 다시 시도합니다.
+
+자동 변환도 실패하면 Excel에서 해당 파일을 직접 열어 `다른 이름으로 저장(.xlsx)` 후 다시 선택합니다.
 
 ## 보안 경고 안내
 
@@ -32,3 +39,4 @@ Windows에서 처음 실행할 때 SmartScreen 또는 보안 경고가 표시될
 ## 배포 파일
 
 이 저장소는 협력사 배포용 저장소이며, 실행 파일만 배포합니다.
+
